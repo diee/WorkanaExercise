@@ -1,0 +1,126 @@
+body {
+  font-family: 'Open Sans', sans-serif; }
+  body .header {
+    background: url("../assets/header1.png");
+    width: 100%; }
+    body .header .container {
+      width: 890px; }
+      body .header .container .logo {
+        padding-top: 24px; }
+      body .header .container .menu {
+        margin-top: 18px; }
+        body .header .container .menu ul {
+          display: inline-block;
+          padding: 0;
+          margin: 0;
+          list-style: none;
+          padding-right: 22px; }
+          body .header .container .menu ul li {
+            color: white;
+            display: inline-block;
+            font-size: 14px;
+            padding: 0 10px; }
+            body .header .container .menu ul li:first-child {
+              border-right: 1px solid;
+              line-height: 16px; }
+            body .header .container .menu ul li:last-child {
+              padding-right: 0; }
+        body .header .container .menu button {
+          display: inline-block;
+          width: 240px;
+          height: 37px;
+          background: rgba(255, 255, 255, 0.8);
+          font-weight: bold;
+          border: none;
+          color: #143256;
+          font-size: 14px; }
+    body .header .frase p {
+      color: white;
+      background: rgba(0, 0, 0, 0.4);
+      font-size: 46px;
+      font-weight: 800;
+      letter-spacing: -2px;
+      line-height: 44px;
+      display: inline-block;
+      margin-top: 210px;
+      padding: 8px 0px 10px 14px;
+      width: 510px;
+      margin-bottom: 15px; }
+    body .header .frase button {
+      font-family: 'Open Sans', sans-serif;
+      width: 240px;
+      height: 55px;
+      background: rgba(224, 175, 64, 0.8);
+      border: none;
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 60px; }
+  body .parte2 {
+    background: url("../assets/parte2back.png");
+    width: 100%; }
+    body .parte2 .container {
+      width: 890px; }
+      body .parte2 .container h4 {
+        font-size: 40px;
+        font-weight: 900;
+        color: #e9b848;
+        margin-bottom: 30px; }
+      body .parte2 .container p {
+        font-size: 16px; }
+      body .parte2 .container li {
+        font-size: 16px;
+        font-weight: bold; }
+      body .parte2 .container button {
+        font-family: 'Open Sans', sans-serif;
+        width: 240px;
+        height: 55px;
+        background: rgba(224, 175, 64, 0.8);
+        border: none;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 26px;
+        margin-left: -20px;
+        margin-bottom: 14px; }
+  body .parte3 {
+    background: url("../assets/parte3back.png");
+    width: 100%; }
+    body .parte3 .container {
+      width: 890px;
+      color: white; }
+      body .parte3 .container h5 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-top: 46px;
+        margin-bottom: 2px; }
+      body .parte3 .container p {
+        font-size: 16px;
+        margin-bottom: 20px; }
+      body .parte3 .container ul {
+        margin-left: -40px; }
+      body .parte3 .container ul li {
+        display: inline-block;
+        margin-right: 40px;
+        margin-bottom: 58px;
+        font-weight: 900; }
+      body .parte3 .container span {
+        font-size: 80px; }
+  body .parte4 {
+    background: url("../assets/parte4back.png");
+    width: 100%; }
+    body .parte4 .container {
+      width: 890px;
+      color: white; }
+      body .parte4 .container .experiencias {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-weight: italic;
+        font-size: 32px;
+        text-align: center; }
+      body .parte4 .container .experiencias:after {
+        content: " ";
+        background: url("../assets/comillaabre.gif"); }
+      body .parte4 .container .experiencias:before {
+        content: " ";
+        background: url("../assets/comillacierra.gif"); }
+
+/*# sourceMappingURL=style.css.map */

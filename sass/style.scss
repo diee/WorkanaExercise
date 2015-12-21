@@ -1,0 +1,341 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	.header{
+		background-image:url("../assets/header1.png");
+		background-size: cover;
+		width: 100%;
+
+		.container{
+			width: 890px;
+
+			.logo{
+				padding-top: 24px;
+			}
+
+			.menu{
+				margin-top:18px;
+				ul{
+					display: inline-block;
+					padding:0;
+					margin:0;
+					list-style:none;
+					padding-right: 22px;
+					li{
+						color:white;
+						display: inline-block;
+						font-size: 14px;
+						padding: 0 10px;
+
+						&:first-child{
+							border-right:1px solid;
+							line-height: 16px;
+						}
+						&:last-child{
+							padding-right:0;
+						}
+					}
+				}
+				button{
+					display: inline-block;
+					width: 240px;
+					height: 37px;
+					background:rgba(255,255,255,0.8);
+					font-weight: bold; 
+					border:none;
+					color:rgb(20,50,86);
+					font-size: 14px;
+				} 
+				
+			}
+		}
+		.frase{
+			p{
+				color:white;
+				background: rgba(0,0,0,0.4);
+				font-size: 46px;
+				font-weight: 800;
+				letter-spacing: -2px;
+				line-height: 44px;
+				display: inline-block;
+				margin-top: 210px;
+				padding:8px 0px 10px 14px;
+				width: 510px;
+				margin-bottom: 15px;
+			}
+			button{
+				font-family: 'Open Sans', sans-serif;
+				width: 240px;
+				height: 55px;
+				background: rgba(224,175,64,0.8);
+				border:none;
+				font-size: 16px;
+				font-weight: bold;
+				margin-bottom: 60px;
+			}
+		}
+	}
+
+	.parte2{
+		background:url("../assets/parte2back.png");
+		width: 100%;
+		.container{
+			width: 890px;
+			h4{
+				font-size: 40px;
+				font-weight: 900;
+				color: rgb(233,184,72);
+				margin-bottom: 30px;
+			}
+			p{
+				font-size: 16px;
+			}
+			li{
+				font-size: 16px;
+				font-weight: bold;
+			}
+			button{
+				font-family: 'Open Sans', sans-serif;
+				width: 240px;
+				height: 55px;
+				background: rgba(224,175,64,0.8);
+				border:none;
+				font-size: 16px;
+				font-weight: bold;
+				margin-top: 26px;
+				margin-left: -20px;
+				margin-bottom: 14px;
+			}
+
+		}
+	}
+
+	.parte3{
+		background:url("../assets/parte3back.png");
+		width: 100%;
+		background-size: cover;
+		.container{
+			width: 890px;
+			color: white;
+
+			h5{
+				font-size: 36px;
+				font-weight: bold;
+				margin-top: 46px;
+				margin-bottom: 2px;
+			}
+			p{
+				font-size: 16px;
+				margin-bottom: 20px;
+			}
+			ul{
+				margin-left: -40px;
+			}
+			ul li{
+				display: inline-block;
+				margin-right: 40px;
+				margin-bottom: 58px;
+				font-weight: 900;
+			}
+			span{
+				font-size: 80px;
+			}
+		}
+	}
+
+	.parte4{
+		background:url("../assets/parte4back.png");
+		width: 100%;
+
+		.container{
+			width: 890px;
+			color:white;
+
+			.experiencias{
+				font-family: 'Open Sans', sans-serif;
+				font-weight: 300;
+				font-weight: italic;
+				font-size: 30px;
+				text-align: center;
+			}
+			.test:after{
+				content:url("../assets/comillacierra.gif");
+				position: relative;
+				right: -425px;
+				top: -60px;
+			}
+			.test:before{
+				content: url("../assets/comillaabre.gif");
+				position: relative;
+				left: -425px;
+  				top: 80px;
+			}
+		}
+
+		.separador{
+			margin-top: -80px;
+		}
+		.users{
+			padding: 0;
+			margin-right: 0;
+			h5{
+				font-size: 18px;
+			}
+			p{
+				font-size: 10px;
+				font-style: italic;
+				color:rgba(255,255,255,0.8);
+			}
+		}
+		.inactive{
+			color:rgba(255,255,255,0.5);
+			img{
+				opacity: 0.5;
+			}
+			p{
+				color:rgba(255,255,255,0.5);
+			}
+		}
+	}
+
+	.parte5{
+		background:url("../assets/parte5img.jpg");
+		color:white;
+
+		h5{
+			font-size: 36px;
+			text-align: center;
+			margin-top: 70px;
+			margin-bottom: 40px;
+		}
+
+		ul li{
+			display: inline-block;
+			margin:0 40px;
+			font-size: 14px;
+			margin-bottom: 100px;
+		}
+		span{
+			border:1px solid white;
+			border-radius: 30px;
+			padding: 8px 13px;
+			margin-right: 20px;
+		}
+	}
+	.parte6{
+		background:url("../assets/parte6img.jpg");
+		width: 100%;
+		background-size: cover;
+
+		h3{
+			margin-top: 70px;
+			font-size: 36px;
+			font-weight: bold;
+			color:rgb(51,51,51);
+		}
+		p{
+			font-size: 18px;
+			color:rgb(51,51,51);
+		}
+		button{
+			background: rgba(224,175,64,0.9);
+			border:none;
+			font-size: 16px;
+			font-weight: bold;
+			width: 300px;
+			height: 56px;
+			margin-bottom: 70px;
+		}
+	}
+	.parte7{
+		background:url("../assets/parte7img.jpg");
+		width: 100%;
+		background-size: cover;
+
+		.container{
+			color:white;
+
+			h4{
+				font-size: 36px;
+				font-weight: bold;
+				margin-top: 90px;
+				margin-bottom: 25px;
+			}
+			p{
+				font-size: 18px;
+				margin-bottom: 100px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	body{
+		.header{
+			background-image:url("../assets/header1mobile.png");
+			background-size: cover;
+			opacity: 1.2;
+
+			.container{
+				width: 100%;
+				.logo{
+	    			background-color:white;
+	    			text-align: center;
+	    			margin: auto;
+	    			padding:24px;
+	    			margin-bottom: 20px;
+				}
+
+				.menu{
+					background-color:rgb(224,175,64);
+					margin-top: -30px;
+
+					ul li{
+						background:white;
+						color:black;
+						border:none;
+						padding:25px;
+
+						&:first-child{
+							border-right:none;
+							line-height: none;
+						}
+						&:last-child{
+							padding-right:25px;
+							line-height: none;
+						}
+					}
+					.frase{
+						p{
+							background:none;
+						}
+						.btn{
+							display: none;
+						}
+					}
+				}
+	
+			}
+
+		}
+	}
+
+	.parte2{
+		display: none;
+	}
+	.parte3{
+		display: none;
+	}
+	.parte4{
+		display: none;
+	}
+	.parte5{
+		display: none;
+	}
+	.parte6{
+		display: none;
+	}
+	.parte7{
+		display: none;
+	}
+	
+  }
